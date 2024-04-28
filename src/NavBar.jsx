@@ -1,3 +1,7 @@
+import './assets/style.css'
+
+
+
 function NavBar (){ 
     return (<nav>
 <h1>Hola Mundo</h1>
