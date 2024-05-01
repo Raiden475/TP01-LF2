@@ -1,3 +1,42 @@
-h1 {
-    font-size: 50px;
+/* Estilos para el NavBar */
+.navbar {
+    background-color: #8B4513; /* Marrón militar */
+    color: #fff;
+    padding: 10px;
+    position: fixed; /* Hace que el NavBar sea fijo en la parte superior */
+    top: 0;
+    left: 0;
+    width: 100%; /* Cubre todo el ancho de la pantalla */
+    z-index: 999; /* Asegura que el NavBar esté por encima de otros elementos */
+}
+
+/* Estilos para el contenido Principal */
+.principal {
+    background-color: #556B2F; /* Verde militar */
+    color: #fff;
+    width: 70%;
+    margin: 60px auto 20px; /* Agrega un margen superior para evitar que el contenido se solape con el NavBar */
+    padding: 20px;
+}
+
+/* Estilos para el Footer */
+.footer {
+    background-color: #F0E68C; /* Beige militar */
+    color: #fff;
+    width: 30%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+}
+
+/* Estilos para el Aside */
+.aside {
+    background-color: hsl(54, 35%, 66%); /* Beige militar */
+    color: #000;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
 }
